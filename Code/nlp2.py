@@ -11,7 +11,7 @@ real_matches = 0
 correct_matches = 0
 wrong_matches = 0
 
-with open("C:\Users\Arunima Chaudhary\Downloads\quora_duplicate_questions.tsv") as tsvfile:
+with open(".\data\quora_duplicate_questions.tsv") as tsvfile:
     tsvreader = csv.reader(tsvfile, delimiter="\t")
     for line in tsvreader:
     	if count == 0:
